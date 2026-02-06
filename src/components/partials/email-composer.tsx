@@ -291,7 +291,7 @@ export default function EmailComposer() {
   const subjectValue = form.watch("subject") || "";
 
   return (
-    <div className="w-full md:max-w-3xl py-6 flex flex-col gap-6">
+    <div className="w-full md:max-w-3xl mx-auto py-6 flex flex-col gap-6">
       <div>
         <Label>From Name</Label>
         <Input {...form.register("fromName")} />

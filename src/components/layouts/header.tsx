@@ -11,14 +11,14 @@ export function Header() {
         <div className="md:max-w-3xl layout-standard h-full flex items-center gap-3">
             <Image
               src="/logo.svg"
-              alt="AxeMail Prototype"
+              alt="Axemail"
               height={60}
               width={60}
               className="opacity-95"
               priority
             />
             <span className="md:text-xl text-base font-medium tracking-tight text-foreground">
-              AxeMail Prototype
+              Axemail
             </span>
           </div>
       </header>

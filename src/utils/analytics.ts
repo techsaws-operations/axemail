@@ -1,6 +1,6 @@
 import { EmailAnalytics } from "@/types/email-interfaces";
 
-const ANALYTICS_KEY = "axemail-prototype-analytics";
+const ANALYTICS_KEY = "axemail-analytics";
 
 function getDefaultAnalytics(): EmailAnalytics {
   return {

@@ -18,7 +18,7 @@ const work_sans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "AxeMail Prototype",
+  title: "Axemail",
   description: "Internal mailing console",
   icons: {
     icon: [

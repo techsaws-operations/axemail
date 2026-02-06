@@ -294,32 +294,44 @@ export default function EmailComposer() {
     <div className="w-full md:max-w-3xl mx-auto py-6 flex flex-col gap-6">
       <div>
         <Label>From Name</Label>
-        <Input {...form.register("fromName")} />
+        <Input
+          {...form.register("fromName")}
+          className="h-[50px] border-border rounded-none"
+        />
       </div>
 
       <div>
         <Label>To</Label>
-        <Input {...form.register("to")} />
+        <Input
+          {...form.register("to")}
+          className="h-[50px] border-border rounded-none"
+        />
       </div>
 
       <div>
         <Label>Reply To</Label>
-        <Input {...form.register("replyTo")} />
+        <Input
+          {...form.register("replyTo")}
+          className="h-[50px] border-border rounded-none"
+        />
       </div>
 
       <div>
         <Label>CC</Label>
-        <Input {...form.register("cc")} />
+        <Input
+          {...form.register("cc")}
+          className="h-[50px] border-border rounded-none"
+        />
       </div>
 
       <div>
         <Label>BCC</Label>
-        <Input {...form.register("bcc")} />
+        <Input {...form.register("bcc")} className="h-[50px] border-border rounded-none" />
       </div>
 
       <div>
         <Label>Subject</Label>
-        <Input {...form.register("subject")} />
+        <Input {...form.register("subject")} className="h-[50px] border-border rounded-none" />
         <CharCounter value={subjectValue} limit={150} />
       </div>
 
